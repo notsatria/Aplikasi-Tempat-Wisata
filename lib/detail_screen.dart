@@ -19,7 +19,7 @@ class DetailScreen extends StatelessWidget {
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 30,
-                    fontWeight: FontWeight.w800,
+                    fontWeight: FontWeight.w600,
                     fontFamily: "Montserrat",
                   ),
                 ),
@@ -63,7 +63,10 @@ class DetailScreen extends StatelessWidget {
                 child: Text(
                   "Puncak Natas Angin adalah salah satu dari tujuh puncak Gunung Muria yang dikenal sebagai 7 Summits of Muria. Dari ke tujuh puncak tersebut, Puncak Natas Angin menjadi salah satu dari empat jalur pendakian utama di Gunung Muria. Puncak Natas Angin masuk dalam kawasan Kabupaten Kudus, Jawa Tengah dengan ketinggian 1.602 meter di atas permukaan laut (mdpl). Meskipun ketinggiannya tidak seperti puncak gunung yang mencapai 3000an mdpl, namun keindahan puncak Natas Angin ini tidak bisa disangkal.",
                   textAlign: TextAlign.center,
-                  style: TextStyle(fontSize: 16, fontFamily: "Montserrat"),
+                  style: TextStyle(
+                      fontSize: 16,
+                      fontFamily: "Montserrat",
+                      fontWeight: FontWeight.w100),
                 ),
               ),
               SizedBox(
