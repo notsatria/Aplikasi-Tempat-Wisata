@@ -1,7 +1,11 @@
+// import 'dart:html';
+
 import 'package:flutter/material.dart';
+import 'package:wisata_natas_angin/tourism_place.dart';
 
 class DetailScreen extends StatelessWidget {
-  const DetailScreen({super.key});
+  final TourismPlace place;
+  const DetailScreen({super.key, required this.place});
 
   @override
   Widget build(BuildContext context) {
@@ -11,11 +15,34 @@ class DetailScreen extends StatelessWidget {
         child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
-              Image.asset('images/gambar1.jpg'),
+              Stack(
+                children: [
+                  Image.asset(place.imageAsset),
+                  Container(
+                      padding: EdgeInsets.all(8.0),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          CircleAvatar(
+                            backgroundColor: Colors.grey,
+                            child: IconButton(
+                                onPressed: () {
+                                  Navigator.pop(context);
+                                },
+                                icon: Icon(
+                                  Icons.arrow_back,
+                                  color: Colors.white,
+                                )),
+                          ),
+                          FavoriteButton()
+                        ],
+                      )),
+                ],
+              ),
               Container(
                 margin: EdgeInsets.only(top: 16.0),
                 child: Text(
-                  "Natas Angin",
+                  place.name,
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 30,
@@ -35,7 +62,7 @@ class DetailScreen extends StatelessWidget {
                           SizedBox(
                             height: 8.0,
                           ),
-                          Text("Open Everyday"),
+                          Text(place.openDays),
                         ],
                       ),
                       Column(
@@ -44,7 +71,7 @@ class DetailScreen extends StatelessWidget {
                           SizedBox(
                             height: 8.0,
                           ),
-                          Text("08.00 - 24.00"),
+                          Text(place.openTime),
                         ],
                       ),
                       Column(
@@ -53,7 +80,7 @@ class DetailScreen extends StatelessWidget {
                           SizedBox(
                             height: 8.0,
                           ),
-                          Text("Free"),
+                          Text(place.ticketPrice),
                         ],
                       ),
                     ]),
@@ -61,7 +88,7 @@ class DetailScreen extends StatelessWidget {
               Container(
                 padding: EdgeInsets.all(16.0),
                 child: Text(
-                  "Puncak Natas Angin adalah salah satu dari tujuh puncak Gunung Muria yang dikenal sebagai 7 Summits of Muria. Dari ke tujuh puncak tersebut, Puncak Natas Angin menjadi salah satu dari empat jalur pendakian utama di Gunung Muria. Puncak Natas Angin masuk dalam kawasan Kabupaten Kudus, Jawa Tengah dengan ketinggian 1.602 meter di atas permukaan laut (mdpl). Meskipun ketinggiannya tidak seperti puncak gunung yang mencapai 3000an mdpl, namun keindahan puncak Natas Angin ini tidak bisa disangkal.",
+                  place.description,
                   textAlign: TextAlign.center,
                   style: TextStyle(
                       fontSize: 16,
@@ -69,40 +96,47 @@ class DetailScreen extends StatelessWidget {
                       fontWeight: FontWeight.w100),
                 ),
               ),
-              SizedBox(
+              Container(
                 height: 150,
                 child: ListView(
-                  scrollDirection: Axis.horizontal,
-                  children: <Widget>[
-                    Padding(
-                      padding: EdgeInsets.all(4.0),
-                      child: ClipRRect(
-                        borderRadius: BorderRadius.circular(10.0),
-                        child: Image.network(
-                            "https://wisato.id/wp-content/uploads/2020/05/Puncak-Natas-Angin-Gunung-Muria-3-scaled.jpg"),
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.all(4.0),
-                      child: ClipRRect(
-                        borderRadius: BorderRadius.circular(10.0),
-                        child: Image.network(
-                            "https://64.media.tumblr.com/34200cc1a5d899c6285a25d1c2d5b451/tumblr_objn1qLnWp1s5nja1o1_500.jpg"),
-                      ),
-                    ),
-                    Padding(
-                      padding: EdgeInsets.all(4.0),
-                      child: ClipRRect(
-                        borderRadius: BorderRadius.circular(10.0),
-                        child: Image.network(
-                            "https://cdn.wisata.app/diary/f5ee83f6-4b87-46b9-9d44-67255347c7f0.jpg"),
-                      ),
-                    ),
-                  ],
-                ),
+                    scrollDirection: Axis.horizontal,
+                    children: place.imageUrls.map((url) {
+                      return Padding(
+                        padding: EdgeInsets.all(4.0),
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(10),
+                          child: Image.network(url),
+                        ),
+                      );
+                    }).toList()),
               ),
             ]),
       ),
     ));
+  }
+}
+
+class FavoriteButton extends StatefulWidget {
+  const FavoriteButton({super.key});
+
+  @override
+  State<FavoriteButton> createState() => _FavoriteButtonState();
+}
+
+class _FavoriteButtonState extends State<FavoriteButton> {
+  bool isFavorite = false;
+  @override
+  Widget build(BuildContext context) {
+    return IconButton(
+      icon: Icon(
+        isFavorite ? Icons.favorite : Icons.favorite_border,
+        color: Colors.red,
+      ),
+      onPressed: (() {
+        setState(() {
+          isFavorite = !isFavorite;
+        });
+      }),
+    );
   }
 }
