@@ -1,16 +1,11 @@
-# wisata_natas_angin
+# Aplikasi Tempat Wisata
 
-A new Flutter project.
+Developed by:
 
-## Getting Started
+- Damar Satria Buana (3.34.21.0.08)
 
-This project is a starting point for a Flutter application.
+## Little Overview The App
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://user-images.githubusercontent.com/92832439/199500513-b2510749-a03f-4fcf-9cf4-525e014c2ecf.png" width="400">
+<img src="https://user-images.githubusercontent.com/92832439/199500528-248441ab-210d-4f4a-911f-8922f29881ae.png" width="400">
+<img src="https://user-images.githubusercontent.com/92832439/199500533-0851dde8-e9ae-46c5-ae8c-e0541f6aba8a.png" width="400">

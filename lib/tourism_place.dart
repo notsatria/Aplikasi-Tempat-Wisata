@@ -46,9 +46,9 @@ var TourismPlaceList = [
       ticketPrice: "Rp50.000",
       imageAsset: 'images/prambanan.jpg',
       imageUrls: [
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwidyalokawisata.com%2Fcandi-prambanan&psig=AOvVaw3eWYymwF_5zhO-fWdZxNCP&ust=1667704727970000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKja_7KKlvsCFQAAAAAdAAAAABAJ.jpg",
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fnews.detik.com%2Fberita-jawa-tengah%2Fd-4946911%2Fditutup-gegara-corona-candi-prambanan-kini-lengang&psig=AOvVaw3eWYymwF_5zhO-fWdZxNCP&ust=1667704727970000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKja_7KKlvsCFQAAAAAdAAAAABAO.jpg",
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fsibakuljogja.jogjaprov.go.id%2Fpasarkotagedeyia%2Fblog%2F2022%2F08%2F02%2Fcandi-prambanan-candi-hindu-terbesar-di-indonesia%2F&psig=AOvVaw3eWYymwF_5zhO-fWdZxNCP&ust=1667704727970000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKja_7KKlvsCFQAAAAAdAAAAABAT.jpg"
+        "https://sp-ao.shortpixel.ai/client/to_auto,q_lossy,ret_img,w_1200/https://widyalokawisata.com/wp-content/uploads/2020/03/CANDI-PRAMBANAN-7.jpg",
+        "https://sp-ao.shortpixel.ai/client/to_auto,q_lossy,ret_img,w_1200/https://widyalokawisata.com/wp-content/uploads/2020/03/CANDI-PRAMBANAN-1.jpg",
+        "https://sp-ao.shortpixel.ai/client/to_auto,q_lossy,ret_img,w_1200/https://widyalokawisata.com/wp-content/uploads/2020/03/CANDI-PRAMBANAN-2.jpeg"
       ]),
   TourismPlace(
       name: "Taman Bunga Celosia",
@@ -74,9 +74,9 @@ var TourismPlaceList = [
       ticketPrice: "Rp20.000",
       imageAsset: 'images/taman_pintar.jpg',
       imageUrls: [
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fjogjaaja.com%2Fread%2Ftaman-pintar-yogyakarta-siap-untuk-dibuka-kembali-dengan-sejumlah-syarat&psig=AOvVaw1zCjb_2ymZCeXfIWuGoxPD&ust=1667706877352000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCPD00LKSlvsCFQAAAAAdAAAAABAE",
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftravel.kompas.com%2Fread%2F2021%2F09%2F08%2F210800127%2Ftaman-pintar-yogyakarta-boleh-uji-coba-pembukaan-untuk-wisatawan%3Fpage%3Dall&psig=AOvVaw1zCjb_2ymZCeXfIWuGoxPD&ust=1667706877352000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCPD00LKSlvsCFQAAAAAdAAAAABAJ",
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.tiket.com%2Ftaman-pintar-yogyakarta%2F&psig=AOvVaw1zCjb_2ymZCeXfIWuGoxPD&ust=1667706877352000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCPD00LKSlvsCFQAAAAAdAAAAABAO"
+        "https://ik.imagekit.io/tk6ir0e7mng/uploads/2021/09/1631276385802.png",
+        "https://asset.kompas.com/crops/Uz0C_Y79lIwkrc633fVgF8Iuv5o=/0x35:1200x835/750x500/data/photo/2019/09/12/5d79e18f68aa5.jpg",
+        "https://blog.tiket.com/wp-content/uploads/Taman-Pintar-Yogyakarta_Blog-new-update-mei2020-IND.jpg"
       ]),
   TourismPlace(
       name: "Museum Mandala Bhakti",
@@ -88,9 +88,9 @@ var TourismPlaceList = [
       ticketPrice: "Free",
       imageAsset: 'images/mandala.jpeg',
       imageUrls: [
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fhalosemarang.id%2Fmenyimpan-banyak-benda-bersejarah-inilah-sejarah-berdirinya-museum-perjuangan-mandala-bhakti-semarang&psig=AOvVaw05_Tmg10q6WvTUd4zRnxtz&ust=1667707199279000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCPD698uTlvsCFQAAAAAdAAAAABAJ",
-        "https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.kopidankamu.com%2F2017%2F11%2Fmuseum-mandala-bhakti.html&psig=AOvVaw05_Tmg10q6WvTUd4zRnxtz&ust=1667707199279000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCPD698uTlvsCFQAAAAAdAAAAABAO",
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fhealth.kompas.com%2Fread%2F2015%2F08%2F03%2F162136027%2FMenengok.Jejak.Perjuangan.Bangsa.di.Museum.Mandala.Bhakti.Semarang%3Fpage%3Dall&psig=AOvVaw05_Tmg10q6WvTUd4zRnxtz&ust=1667707199279000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCPD698uTlvsCFQAAAAAdAAAAABAY"
+        "https://2.bp.blogspot.com/-kNIlpz_12H0/Wflu6XcWuuI/AAAAAAAACYQ/aUsZALFuERESSfazgIwG9amyQlfrgzz0ACLcBGAs/s400/FullSizeRender%2B%25285%2529.jpg",
+        "https://asset.kompas.com/data/photo/2015/08/03/1615241prajurit-museum780x390.jpg",
+        "https://asset.kompas.com/data/photo/2015/08/03/1619042mandalaaaa780x390.jpg"
       ]),
   TourismPlace(
       name: "Lawang Sewu",
@@ -102,9 +102,9 @@ var TourismPlaceList = [
       ticketPrice: "Rp20.000",
       imageAsset: 'images/lawang.jpg',
       imageUrls: [
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fjateng.liputan6.com%2Fread%2F4995102%2Flawang-sewu-ikon-wisata-semarang-yang-ternyata-tidak-punya-1000-pintu&psig=AOvVaw3_kmUZ4O_orCdzq3MzCg1c&ust=1667707645727000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKDB96CVlvsCFQAAAAAdAAAAABAJ",
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fregional.kompas.com%2Fread%2F2022%2F05%2F18%2F202411078%2Fatap-gedung-rusak-museum-lawang-sewu-bakal-direnovasi-tahun-ini%3Fpage%3Dall&psig=AOvVaw3_kmUZ4O_orCdzq3MzCg1c&ust=1667707645727000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKDB96CVlvsCFQAAAAAdAAAAABAO",
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kepogaul.com%2Fwisata%2Fwisata-lawang-sewu-semarang%2F&psig=AOvVaw3_kmUZ4O_orCdzq3MzCg1c&ust=1667707645727000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKDB96CVlvsCFQAAAAAdAAAAABAT"
+        "https://cdn0-production-images-kly.akamaized.net/7-zHE6lvfLezx7GsbnBWoFMkBU8=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2747209/original/013661800_1552188191-4__8_.jpg",
+        "https://asset.kompas.com/crops/ng3V0bqjkvMak-i4TBDa5-WUk_0=/0x0:0x0/750x500/data/photo/2022/05/18/6284eff8eb5fa.jpg",
+        "https://www.kepogaul.com/wp-content/uploads/2018/07/000191-00_wisata-lawang-sewu-semarang_lawang-sewu_800x450_ccpdm-min-800x450.jpg.webp"
       ]),
   TourismPlace(
       name: "Kota Lama",
@@ -116,8 +116,8 @@ var TourismPlaceList = [
       ticketPrice: "Free",
       imageAsset: 'images/kota_lama.jpeg',
       imageUrls: [
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alinea.id%2Fgaya-hidup%2Fintip-pesona-kota-lama-semarang-yang-otentik-b1Xqf9pzx&psig=AOvVaw0rJ_80jAGem-6QTg3IeRfv&ust=1667708066973000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCOjszemWlvsCFQAAAAAdAAAAABAJ",
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftravel.kompas.com%2Fread%2F2020%2F01%2F21%2F150600927%2Fjelajah-kota-lama-semarang-ikuti-itinerary-1-hari-berikut-ini%3Fpage%3Dall&psig=AOvVaw0rJ_80jAGem-6QTg3IeRfv&ust=1667708066973000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCOjszemWlvsCFQAAAAAdAAAAABAO",
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fidsejarah.net%2F2016%2F03%2Fsejarah-dan-eksotisme-kota-lama-semarang.html&psig=AOvVaw0rJ_80jAGem-6QTg3IeRfv&ust=1667708066973000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCOjszemWlvsCFQAAAAAdAAAAABAY"
+        "https://img.alinea.id/img/content/2019/11/27/57363/intip-pesona-kota-lama-semarang-yang-otentik-QM1F0yZNR1.jpg",
+        "https://asset.kompas.com/crops/RDmQ3DPdxcLMCacPHJhHWMDgAx4=/71x0:912x561/750x500/data/photo/2020/01/19/5e2435421b70b.jpg",
+        "https://idsejarah.net/wp-content/uploads/2016/03/Fasilitas-Kota-Lama-Semarang.jpg"
       ]),
 ];

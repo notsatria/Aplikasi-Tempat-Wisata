@@ -91,9 +91,10 @@ class DetailScreen extends StatelessWidget {
                   place.description,
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                      fontSize: 16,
-                      fontFamily: "Montserrat",
-                      fontWeight: FontWeight.w100),
+                    fontSize: 16,
+                    fontFamily: "Montserrat",
+                    fontWeight: FontWeight.w100,
+                  ),
                 ),
               ),
               Container(
